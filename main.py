@@ -84,7 +84,7 @@ while True:
     elapsed_time = current_time - start_time
 
     # Ghost appears after 10 seconds
-    if elapsed_time > 4 and not ghost_active:
+    if elapsed_time > 1000000 and not ghost_active:
         ghost_active = True
         ghost_start_time = current_time
 
